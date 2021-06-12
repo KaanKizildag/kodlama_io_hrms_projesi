@@ -3,20 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package entities;
+package kodlama.io.service.abstracts;
 
-import javax.persistence.Entity;
-import lombok.Data;
+import java.util.List;
+import kodlama.io.entities.User;
 
 /**
  *
  * @author kaan
  */
-@Entity
-@Data
-public class Employee extends User{
-   private String name;
-   private String surname;
-   private String IdentityNumber;
-   
+public interface UserService {
+
+    List<User> getAll();
 }
