@@ -6,6 +6,7 @@
 package kodlama.io.entities.users;
 
 import javax.persistence.Entity;
+import javax.persistence.PrimaryKeyJoinColumn;
 import lombok.Data;
 
 /**
@@ -14,6 +15,7 @@ import lombok.Data;
  */
 @Entity
 @Data
+@PrimaryKeyJoinColumn(name = "id")
 public class Employer extends User{
     private String companyName;
     private int numberOfEmployees;
