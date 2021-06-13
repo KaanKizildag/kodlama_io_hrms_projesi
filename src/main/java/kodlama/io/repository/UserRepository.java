@@ -5,7 +5,7 @@
  */
 package kodlama.io.repository;
 
-import kodlama.io.entities.User;
+import kodlama.io.entities.users.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

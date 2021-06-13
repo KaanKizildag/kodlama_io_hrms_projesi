@@ -6,7 +6,7 @@
 package kodlama.io.controller;
 
 import java.util.List;
-import kodlama.io.entities.User;
+import kodlama.io.entities.users.User;
 import kodlama.io.service.concrete.UserServiceImpl;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

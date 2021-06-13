@@ -5,7 +5,7 @@
  */
 package kodlama.io.service.concrete;
 
-import kodlama.io.entities.User;
+import kodlama.io.entities.users.User;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import kodlama.io.repository.UserRepository;

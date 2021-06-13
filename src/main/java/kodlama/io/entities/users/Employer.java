@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kodlama.io.entities;
+package kodlama.io.entities.users;
 
 import javax.persistence.Entity;
 import lombok.Data;

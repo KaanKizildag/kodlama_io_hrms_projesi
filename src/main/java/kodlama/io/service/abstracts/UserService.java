@@ -6,7 +6,7 @@
 package kodlama.io.service.abstracts;
 
 import java.util.List;
-import kodlama.io.entities.User;
+import kodlama.io.entities.users.User;
 
 /**
  *
